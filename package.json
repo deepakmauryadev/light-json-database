@@ -1,7 +1,7 @@
 {
   "name": "light-json-database",
   "version": "1.0.0",
-  "description": "A light database based on json.",
+  "description": "An extremely light database based on json.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "scripts": {
