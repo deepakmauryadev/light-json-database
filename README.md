@@ -1,7 +1,7 @@
 # Installation
 
 ```
-npm install simple-json-database
+npm install light-json-database
 ```
 
 # Introduction
