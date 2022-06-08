@@ -1,7 +1,7 @@
 {
   "name": "light-json-database",
   "version": "1.0.0",
-  "description": "",
+  "description": "A light database based on json.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "scripts": {
@@ -10,12 +10,20 @@
     "build:esm": "tsc -p ./config/tsconfig.esm.json"
   },
   "keywords": [
-    "simple",
+    "light",
     "json",
     "database"
   ],
   "author": "deepakmauryadev",
   "license": "MIT",
+  "homepage": "https://github.com/deepakmauryadev/light-json-database#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepakmauryadev/light-json-database.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deepakmauryadev/light-json-database/issues"
+  },
   "devDependencies": {
     "@types/node": "^17.0.39"
   }
