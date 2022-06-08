@@ -6,7 +6,7 @@ npm install light-json-database
 
 # Introduction
 
-This is very simple database for server side NodeJS application. It stores the data in json file generated in the current working directory.
+This is very simple and extremely light database for server side NodeJS applications. It stores the data in json file generated in the current working directory.
 
 # Example
 
