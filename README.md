@@ -13,7 +13,7 @@ This is very simple and extremely light database for server side NodeJS applicat
 1. **Creating a database**
 
 ```js
-const { JsonDatabase } = require("simple-json-database");
+const { JsonDatabase } = require("light-json-database");
 
 const db = new JsonDatabase("example"); // example is database name
 
@@ -23,7 +23,7 @@ console.log(db.getAll()); // output: {}
 2. **Inserting data in database**
 
 ```js
-const { JsonDatabase } = require("simple-json-database");
+const { JsonDatabase } = require("light-json-database");
 
 const db = new JsonDatabase("example"); // example is database name
 
@@ -37,7 +37,7 @@ console.log(db.getAll()); // output: { name: "Jon Doe" }
 3. **Updating data in database**
 
 ```js
-const { JsonDatabase } = require("simple-json-database");
+const { JsonDatabase } = require("light-json-database");
 
 const db = new JsonDatabase("example"); // example is database name
 
@@ -53,7 +53,7 @@ console.log(db.get("name")); // output: "Another name"
 4. **Deleting data from database**
 
 ```js
-const { JsonDatabase } = require("simple-json-database");
+const { JsonDatabase } = require("light-json-database");
 
 const db = new JsonDatabase("example"); // example is database name
 
